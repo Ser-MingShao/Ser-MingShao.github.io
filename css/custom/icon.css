@@ -1,0 +1,28 @@
+/* icon配置 */
+/* .icon-gitee:before {
+    font-size: 20px;
+}
+
+.icon-GitHub:before {
+    font-size: 20px;
+}
+
+.icon-yunyouxiang:before {
+    font-size: 20px;
+}
+.icon-QQ:before {
+    font-size: 20px;
+}
+.icon-Vercel:before {
+    font-size: 20px;
+} */
+
+svg.icon {
+    width: 1em; height: 1em;
+    /* width和height定义图标的默认宽度和高度*/
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    font-size: 20px;
+     /* 控制图标大小*/
+ }

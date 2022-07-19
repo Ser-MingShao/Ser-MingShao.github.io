@@ -1,0 +1,211 @@
+ [data-theme="dark"] #recent-posts>.recent-post-item {
+     background: #827d7d00;
+ }
+
+ /* 卡片栏透明 */
+ [data-theme="dark"] #aside-content .card-widget {
+     background: #12121200;
+ }
+
+ /* 文章头部透明 */
+ [data-theme="dark"] .post-bg:before {
+     background-color: rgb(0 0 0 / 0%);
+ }
+
+ /* 文章页背景透明 */
+ [data-theme="dark"] .layout>div:first-child:not(.recent-posts) {
+     background-color: rgb(0 0 0 / 0%);
+ }
+
+
+ /* 时钟透明 */
+ [data-theme=dark] .card-background {
+     background-color: rgba(0, 0, 0, 0.408) !important;
+ }
+
+ /* 上一页按钮 */
+ [data-theme="dark"] #pagination .prev-post a {
+     background: rgba(251, 251, 251, 0) !important;
+     color: rgba(255, 255, 255, 0.5) !important;
+ }
+
+ [data-theme="dark"] #pagination .prev-post a:hover {
+     background: rgba(251, 251, 251, 0) !important;
+     color: rgba(255, 255, 255, 0.8) !important;
+ }
+
+
+ /* 下一页按钮 */
+ [data-theme="dark"] #pagination .next-post a {
+     background: rgba(251, 251, 251, 0) !important;
+     color: rgba(255, 255, 255, 0.5) !important;
+ }
+
+ [data-theme="dark"] #pagination .next-post a:hover {
+     background: rgba(251, 251, 251, 0) !important;
+     color: rgba(255, 255, 255, 0.8) !important;
+ }
+
+ /* 右下角工具按钮背景 */
+ [data-theme="dark"] #rightside>div>button {
+     background: #12121200 !important;
+     color: rgb(255, 255, 255) !important;
+ }
+
+ /* 其余 */
+ [data-theme="dark"] .not-top-img #nav {
+     background: rgb(255 255 255 / 0%) !important;
+ }
+
+ [data-theme="dark"] .layout>div:first-child:not(.recent-posts) {
+     background-color: rgb(192 185 185 / 18%);
+ }
+
+ #subtitle {
+     background: linear-gradient(-45deg, #30ff07, #fbff19, #e10fb3, #23d5ab) !important;
+     background-size: 400% 400% !important;
+     -webkit-animation: Gradient 10s ease infinite !important;
+     -moz-animation: Gradient 10s ease infinite !important;
+     animation: Gradient 10s ease infinite !important;
+     -o-user-select: none !important;
+     -ms-user-select: none !important;
+     -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+     user-select: none !important;
+     -webkit-background-clip: text !important;
+     -webkit-text-fill-color: transparent !important;
+     border-top-left-radius: 10px !important;
+     border-top-right-radius: 10px !important;
+ }
+
+ #aside-content .card-info #card-info-btn {
+     background-color: var(--card-box-shadow);
+     color: var(--font-color);
+ }
+
+ #aside-content .card-info #card-info-btn:hover {
+     border-radius: 20px;
+     background-color: var(--btn-hover-color);
+ }
+
+ /* 版权美化 */
+ [data-theme="dark"] #post .post-copyright {
+     background-color: #191919ac;
+ }
+
+ .post-copyright-m-info .post-copyright-a, .post-copyright-m-info .post-copyright-c, .post-copyright-m-info .post-copyright-u {
+     padding: 5px 30px;
+ }
+
+ /* 洪哥 */
+ #category-bar {
+     margin-top: 20px;
+ }
+
+ /* 取消棱角 */
+ @media screen and (max-width: 768px) {
+     #category-bar {
+         border-radius: none !important;
+     }
+ }
+
+
+
+ /* 滚动条 */
+ ::-webkit-scrollbar-thumb {
+     background-color: #2ab1ff;
+     background-image: -webkit-linear-gradient(45deg,
+             rgba(255, 255, 255, 0.4) 25%,
+             transparent 25%,
+             transparent 50%,
+             rgba(255, 255, 255, 0.4) 50%,
+             rgba(255, 255, 255, 0.4) 75%,
+             transparent 75%,
+             transparent);
+     border-radius: 3em;
+ }
+
+ ::-webkit-scrollbar-track {
+     background-color: #ffffff;
+     border-radius: 3em;
+ }
+
+ ::-webkit-scrollbar {
+     width: 8px;
+     height: 15px;
+ }
+
+ /* 禁用头像旋转动画 */
+
+ .avatar-img {
+     -webkit-animation: none !important;
+     ;
+     -moz-animation: none !important;
+     ;
+     -o-animation: none !important;
+     ;
+     -ms-animation: none !important;
+     ;
+     animation: none !important;
+ }
+
+ /* 哔哔首页显示改动 */
+ .bbTimeList {
+     margin-bottom: 20px;
+     margin-top: 20px;
+ }
+
+
+ .bbTimeList .fa-arrow-circle-right {
+     height: 10px;
+     margin-top: 7px;
+ }
+
+ .datacont img {
+     width: 100%;
+ }
+
+
+ /* bber.css */
+
+
+ #bber>section>ul>div>li>div {
+     background: rgba(16, 22, 26, .1);
+ }
+
+
+
+ /*哔哩哔哩视频适配*/
+
+ .bilibili {
+     position: relative;
+     width: 100%;
+ }
+
+ @media only screen and (max-width: 767px) {
+     .bilibili {
+         height: 15em;
+         max-width: 25em;
+     }
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+     .bilibili {
+         height: 20em;
+         max-width: 30em;
+     }
+ }
+
+ @media only screen and (min-width: 992px) and (max-width: 1199px) {
+     .bilibili {
+         height: 30em;
+         max-width: 40em;
+     }
+ }
+
+ @media only screen and (min-width: 1200px) {
+     .bilibili {
+         height: 40em;
+         max-width: 50em;
+     }
+ }
