@@ -8,9 +8,21 @@
       <link href="/posts/372934289/"/>
       <url>/posts/372934289/</url>
       
-        <content type="html"><![CDATA[<p>啊</p><p>git拉取</p><ol><li>复制远程链接HTTP</li></ol><p><img src="C:%5CUsers%5C18399%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220719184655736.png" alt="image-20220719184655736" /></p><ol start="2"><li><p>随便找个地方右键Git Bash</p><p><img src="C:%5CUsers%5C18399%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220719184747747.png" alt="image-20220719184747747" /></p></li><li><p>输入 git clone (刚刚复制的)就已经拉取下来了</p><p><img src="C:%5CUsers%5C18399%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220719184843215.png" alt="image-20220719184843215" /></p></li></ol><p><img src="C:%5CUsers%5C18399%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220719184903555.png" alt="image-20220719184903555" /></p>]]></content>
+        <content type="html"><![CDATA[<div class="tip home"><p>前言:写的不是很完整,但基本操作就这些,句句重点,全程无废话~</p></div><h2 id="git拉取仓库"><a class="markdownIt-Anchor" href="#git拉取仓库"></a> git拉取仓库</h2><blockquote><ol><li><p>复制远程仓库链接(<span class='p green'>注意是HTTP的</span>)</p><p><img src="https://unpkg.com/serms-assets/imgs/image-20220719184655736.png" alt="" /></p></li><li><p>随便找个地方右键Git Bash</p><p><img src="https://unpkg.com/serms-assets/imgs/image-20220719184747747.png" alt="" /></p></li><li><p>输入 git clone (<span class='p green'>这里填刚刚复制的HTTP链接</span>),然后坐等就已经拉取下来了</p><p><img src="https://unpkg.com/serms-assets/imgs/image-20220719184843215.png" alt="" /></p><p><img src="https://unpkg.com/serms-assets/imgs/image-20220719184903555.png" alt="" /></p></li></ol></blockquote><h2 id="git推送至仓库"><a class="markdownIt-Anchor" href="#git推送至仓库"></a> git推送至仓库</h2><blockquote><p>在仓库中输入下面这行代码即可,如果不行,就分开执行,有报错请在下方留言</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add . &amp;&amp; git commit -m &#x27;update&#x27; &amp;&amp; git push origin master</span><br></pre></td></tr></table></figure><p><img src="https://unpkg.com/serms-assets/imgs/image-20220719215427076.png" alt="image-20220719215427076" /></p></blockquote>]]></content>
       
       
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
       
     </entry>
     
